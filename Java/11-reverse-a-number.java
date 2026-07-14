@@ -11,7 +11,7 @@ class Main{
         while (num > 0) {
             int remainder = num%10;
             reverse = (reverse * 10) + remainder;
-            num = Math.floorDiv(num, 10);
+            num /= 10;
         }
         System.out.println("Reverse number is: " + reverse);
         getInput.close();

@@ -7,20 +7,21 @@ class Main {
         System.out.println("Enter a number:");
         int num = getInput.nextInt();
         int temp = num;
-        int reverse = 0;
+        int ans = 0;
 
         while (num > 0) {
-            int remainder = num%10;
-            reverse = (reverse * 10) + remainder;
+            int digit = num % 10;
+            int fact = 1;
+
+            for (int i = 1; i <= digit; i++) {
+                fact = fact * i;
+            }
+
+            ans += fact;
             num /= 10;
         }
-        
-        if (reverse == temp) {
-            System.out.println(reverse + " is Palindrome number.");
-        } else {
-            System.out.println(reverse + " is Not Palindrome number.");
-        }
 
+        System.out.println((ans == temp) ? (temp + " is Strong number.") : (temp + " is Not Strong number."));
         getInput.close();
     }
 }

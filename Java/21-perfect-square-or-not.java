@@ -6,15 +6,13 @@ class Main {
 
         System.out.println("Enter a number:");
         int num = getInput.nextInt();
-        int sum = 0;
+        int root = (int) Math.sqrt(num);
 
-        while (num != 0) {
-            int digit = num%10;
-            sum += digit;
-            num /= 10;
+        if (root * root == num) {
+            System.out.println(num + " is Perfect Square.");
+        } else {
+            System.out.println(num + " is Not Perfect Square.");
         }
-
-        System.out.println("Sum is: " + sum);
         getInput.close();
     }
 }

@@ -13,7 +13,7 @@ class Main {
         while (i<=num) {
             if (num%i == 0) {
                 System.out.print(i+ " ");
-                num = Math.floorDiv(num, i);
+                num /= i;
             } else {
                 i++;
             }

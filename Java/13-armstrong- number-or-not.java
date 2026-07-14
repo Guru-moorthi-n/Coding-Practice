@@ -12,7 +12,7 @@ class Main {
         while (num > 0){
             int digit = num%10;
             ans += Math.pow(digit, length);
-            num = Math.floorDiv(num, 10);
+            num /= 10;
         }
 
         if (ans == temp) {
