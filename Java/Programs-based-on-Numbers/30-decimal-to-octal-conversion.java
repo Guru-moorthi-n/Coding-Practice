@@ -9,13 +9,16 @@ class Main {
 
         String octal = "";
 
-        while (decimal > 0) {
-            int remainder = decimal%8;
-            octal = remainder + octal;
-            decimal /= 8;
+        if (decimal == 0) {
+            System.out.println("Octal value is: 0");
+        } else {
+            while (decimal > 0) {
+                int remainder = decimal % 8;
+                octal = remainder + octal;
+                decimal /= 8;
+            }
+            System.out.println("Octal value is: " + octal);
         }
-        
-        System.out.println("Octal value is: " + octal);
         getInput.close();
     }
 }

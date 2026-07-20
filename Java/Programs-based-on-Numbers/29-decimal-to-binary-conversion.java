@@ -9,13 +9,16 @@ class Main {
 
         String binary = "";
 
-        while (decimal > 0) {
-            int remainder = decimal%2;
-            binary = remainder + binary;
-            decimal /= 2;
+        if (decimal == 0) {
+            System.out.println("Binary value is: 0");
+        } else {
+            while (decimal > 0) {
+                int remainder = decimal % 2;
+                binary = remainder + binary;
+                decimal /= 2;
+            }
+            System.out.println("Binary value is: " + binary);
         }
-        
-        System.out.println("Binary value is: " + binary);
         getInput.close();
     }
 }
