@@ -8,4 +8,4 @@ def Factorial(num):
     else:
         return num * Factorial(num - 1)
 
-print("Factorial:", Factorial(num))
+print("\nFactorial:", Factorial(num))
