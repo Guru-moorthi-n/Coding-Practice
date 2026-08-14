@@ -20,6 +20,7 @@ class Main {
 
         return Single;
     }
+    
     public static void main(String[] args) {
         int[] arr = {2, 1, 5, 3, 4, 3};
         System.out.println("The Duplicate value is: " + Duplicate(arr));
