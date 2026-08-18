@@ -1,4 +1,4 @@
-text = input("Inter a String: ")
+text = input("Enter a String: ")
 result = ""
 
 for ch in text:
@@ -10,3 +10,6 @@ for ch in text:
         result += ch
 
 print("The Toggled string is:", result)
+
+# Built-in Method
+# text.swapcase()
