@@ -1,0 +1,10 @@
+num1 = int(input("Enter rows number: "))
+num2 = int(input("Enter column number: "))
+
+for i in range(num1):
+    for j in range(num2):
+        if(i==0 or i==num1-1 or j==0 or j==num2-1):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
