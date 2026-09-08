@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner getInput = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = getInput.nextInt();
+
+        for (int i=0; i<num; i++){
+            System.out.println("*".repeat(i+1));
+        }
+        getInput.close();
+    }
+}
