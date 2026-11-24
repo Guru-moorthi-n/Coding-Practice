@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.main-container {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-container {
+    height: 89vh;
+    
+    background-color: #EEEEEE;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.249);
+    margin: 15px 10px 10px 10px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 12fr 0.4fr;
+}
+
+.qr-code-generator {
+    background-color: #EEEEEE;
+}
+
+.qr-code-scanner {
+    background-color: #B9E4E8;
+}
