@@ -10,7 +10,7 @@ const Header = () => {
     <div className="header">
       <div className="header-left">
         <img src="/qr.png" alt="Logo"/>
-        <h2>QR Tool</h2>
+        <h1>QR Tool</h1>
       </div>
       <h2 onClick={handleMenuClick}>
         <i className="fa fa-bars" aria-hidden="true"></i>

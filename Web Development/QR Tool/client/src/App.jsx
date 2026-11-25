@@ -10,10 +10,18 @@ function App() {
             </div>
             <div className="body-container">
                 <div className="qr-code-generator">
+                    <div className="genarator-title">
+                    <h2>Create QR Code:</h2>
+                    </div>
+
+                    <div className="genarator-div">
+                        <div className="gen-left">1</div>
+                        <div className="gen-right">2</div>
+                    </div>
                 </div>
                 
                 <div className="qr-code-scanner">
-                    <i class="fa fa-arrow-circle-left"></i>
+                    <i className="fa fa-arrow-circle-left left-arrow"></i>
                 </div>
             </div>
         </div>
