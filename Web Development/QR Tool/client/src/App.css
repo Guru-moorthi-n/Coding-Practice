@@ -9,7 +9,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .body-container {
-    height: 88vh;
+    height: 87vh;
     
     background-color: #EEEEEE;
     border: 1px solid rgba(0, 0, 0, 0.116);
@@ -54,13 +54,30 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .genarator-div {
     display: grid;
     grid-template-columns: 8fr 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    height: 90%;
+    gap: 15px;
 }
 
-.gen-left {
-    background-color: lightgreen;
+.gen-left, .gen-right {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(211, 211, 211, 0.575);
 }
 
-.gen-right {
-    background-color: lightskyblue;
+.add-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.numbers{
+    width: 35px;
+}
+
+.add-content h2 {
+    font-weight: 600;
 }

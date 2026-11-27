@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-left">
-        <img src="/qr.png" alt="Logo"/>
+        <img src="/public/qr.png" alt="Logo"/>
         <h1>QR Tool</h1>
       </div>
       <h2 onClick={handleMenuClick}>
