@@ -17,11 +17,7 @@ function App() {
           <div className="genarator-div">
             <div className="gen-left">
               <div className="add-content">
-                <img
-                  src="/public/number-1.png"
-                  alt="number-1"
-                  className="numbers"
-                />
+                <img src="/number-1.png" alt="number-1" className="numbers" />
                 <h2>Add Content</h2>
               </div>
               <div></div>
@@ -30,8 +26,11 @@ function App() {
           </div>
         </div>
 
-        <div className="qr-code-scanner">
-          <i className="fa fa-arrow-circle-left left-arrow"></i>
+        <div className="output-box">
+          <div className="genarator-title">
+            <h2>Output</h2>
+          </div>
+          <div className="output-body"></div>
         </div>
       </div>
     </div>

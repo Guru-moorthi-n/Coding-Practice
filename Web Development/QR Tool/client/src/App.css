@@ -18,31 +18,12 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
 
     display: grid;
-    grid-template-columns: 12fr 0.4fr;
+    grid-template-columns: 8fr 4fr;
 }
 
 .qr-code-generator {
     background-color: #EEEEEE;
     padding: 15px 25px;
-}
-
-.qr-code-scanner {
-    background-color: #B9E4E8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-
-    border-radius: 0 5px 5px 0;
-}
-
-.qr-code-scanner:hover {
-    cursor: pointer;
-    background-color: #167D8D;
-    color: #EEEEEE;
-    box-shadow: 1px 1px 12px #167d8d34;
-
-    font-size: xx-large;
 }
 
 .genarator-title{
@@ -53,7 +34,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .genarator-div {
     display: grid;
-    grid-template-columns: 8fr 4fr;
+    grid-template-columns: 6fr 6fr;
     grid-template-rows: 1fr;
 
     height: 90%;
@@ -80,4 +61,17 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .add-content h2 {
     font-weight: 600;
+}
+
+.output-box {
+    background-color: #EEEEEE;
+    padding: 15px 25px;
+}
+
+.output-body{
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(211, 211, 211, 0.575);
+
 }
